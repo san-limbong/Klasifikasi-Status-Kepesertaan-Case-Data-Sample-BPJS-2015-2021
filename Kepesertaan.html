@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Binary Classification</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body class="m-4">
+    <form>
+        <legend>Binary Classification</legend>
+
+        <div class="form-group row">          
+            <label for="PSTV02" class="col-sm-2 col-form-label">PSTV02:</label>
+                <div class="col-sm-5">
+                    <input name="PSTV02" type="integer" class="form-control" id="PSTV02" required="required"
+                    placeholder="Masukkan nilai PSTV02 cth : 45243428">
+                  </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV04_type" class="col-sm-2 col-form-label">PSTV04:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV04_type" name="PSTV04" class="custom-select my-1 mr-sm-1">
+                        <option value="PESERTA">PESERTA</option>
+                        <option value="ANAK">ANAK</option>
+                        <option value="ISTRI">ISTRI</option>
+                        <option value="TAMBAHAN">TAMBAHAN</option>
+                        <option value="SUAMI">SUAMI</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV05_type" class="col-sm-2 col-form-label">PSTV05:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV05_type" name="PSTV05" class="custom-select my-1 mr-sm-1">
+                        <option value="PEREMPUAN">PEREMPUAN</option>
+                        <option value="LAKI-LAKI">LAKI-LAKI</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV06_type" class="col-sm-2 col-form-label">PSTV06:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV06_type" name="PSTV06" class="custom-select my-1 mr-sm-1">
+                        <option value="KAWIN">KAWIN</option>
+                        <option value="BELUM KAWIN">BELUM KAWIN</option>
+                        <option value="TIDAK TERDEFINISI">TIDAK TERDEFINISI</option>
+                        <option value="CERAI">CERAI</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV07_type" class="col-sm-2 col-form-label">PSTV07:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV07_type" name="PSTV07" class="custom-select my-1 mr-sm-1">
+                        <option value="KELAS III">KELAS III</option>
+                        <option value="KELAS II">KELAS II</option>
+                        <option value="KELAS I">KELAS I</option>
+                    </select>
+                </div>
+        </div>
+        
+        <div class="form-group row">          
+            <label for="PSTV08_type" class="col-sm-2 col-form-label">PSTV08:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV08_type" name="PSTV08" class="custom-select my-1 mr-sm-1">
+                        <option value="PPU">PPU</option>
+                        <option value="PBI APBN">PBI APBN</option>
+                        <option value="PBPU">PBPU</option>
+                        <option value="PBI APBD">PBI APBD</option>
+                        <option value="BUKAN PEKERJA">BUKAN PEKERJA</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV09_type" class="col-sm-2 col-form-label">PSTV09:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV09_type" name="PSTV09" class="custom-select my-1 mr-sm-1">
+                        <option value="JAWA TENGAH">JAWA TENGAH</option>
+                        <option value="JAWA BARAT">JAWA BARAT</option>
+                        <option value="JAWA TIMUR">JAWA TIMUR</option>
+                        <option value="SUMATERA UTARA">SUMATERA UTARA</option>
+                        <option value="SULAWESI SELATAN">SULAWESI SELATAN</option>
+                        <option value="SUMATERA SELATAN">SUMATERA SELATAN</option>
+                        <option value="DKI JAKARTA">DKI JAKARTA</option>
+                        <option value="LAMPUNG">LAMPUNG</option>
+                        <option value="LAMPUNG">LAMPUNG</option>
+                        <option value="NUSA TENGGARA TIMUR">NUSA TENGGARA TIMUR</option>
+                        <option value="ACEH">ACEH</option>
+                        <option value="RIAU">RIAU</option>
+                        <option value="PAPUA">PAPUA</option>
+                        <option value="SUMATERA BARAT">SUMATERA BARAT</option>
+                        <option value="BALI">BALI</option>
+                        <option value="KALIMANTAN SELATAN">KALIMANTAN SELATAN</option>
+                        <option value="SULAWESI TENGGARA">SULAWESI TENGGARA</option>
+                        <option value="KALIMANTAN BARAT">KALIMANTAN BARAT</option>
+                        <option value="KALIMANTAN TIMUR">KALIMANTAN TIMUR</option>
+                        <option value="SULAWESI UTARA">SULAWESI UTARA</option>
+                        <option value="JAMBI">JAMBI</option>
+                        <option value="DAERAH ISTIMEWA YOGYAKARTA">DAERAH ISTIMEWA YOGYAKARTA</option>
+                        <option value="SULAWESI TENGAH">SULAWESI TENGAH</option>
+                        <option value="NUSA TENGGARA BARAT">NUSA TENGGARA BARAT</option>
+                        <option value="KALIMANTAN TENGAH">KALIMANTAN TENGAH</option>
+                        <option value="BENGKULU">BENGKULU</option>
+                        <option value="MALUKU">MALUKU</option>
+                        <option value="PAPUA BARAT">PAPUA BARAT</option>
+                        <option value="MALUKU UTARA">MALUKU UTARA</option>
+                        <option value="KEPULAUAN RIAU">KEPULAUAN RIAU</option>
+                        <option value="SULAWESI BARAT">SULAWESI BARAT</option>
+                        <option value="KEPULAUAN BANGKA BELITUNG">KEPULAUAN BANGKA BELITUNG</option>
+                        <option value="GORONTALO">GORONTALO</option>
+                        <option value="KALIMANTAN UTARA">KALIMANTAN UTARA</option>
+                        <option value="TIDAK TERDEFINISI">TIDAK TERDEFINISI</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV10" class="col-sm-2 col-form-label">PSTV10:</label>
+                <div class="col-sm-5">
+                    <input name="PSTV10" type="text" class="form-control" id="PSTV10" required="required"
+                    placeholder="Masukkan kota atau PSTV10 Cth: Bogor">
+                  </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV11_type" class="col-sm-2 col-form-label">PSTV11:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV11_type" name="PSTV11" class="custom-select my-1 mr-sm-1">
+                        <option value="PEMERINTAH KABUPATEN/KOTA">PEMERINTAH KABUPATEN/KOTA</option>
+                        <option value="SWASTA">SWASTA</option>
+                        <option value="POLRI">POLRI</option>
+                        <option value="TNI AD">TNI AD</option>
+                        <option value="BUMN">BUMN</option>
+                        <option value="PEMERINTAH PROVINSI">PEMERINTAH PROVINSI</option>
+                        <option value="TNI AL">TNI AL</option>
+                        <option value="TNI AU">TNI AU</option>
+                        <option value="MISSING">MISSING</option>
+                        <option value="VERTIKAL/PUSAT">VERTIKAL/PUSAT</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV12_type" class="col-sm-2 col-form-label">PSTV12:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV12_type" name="PSTV12" class="custom-select my-1 mr-sm-1">
+                        <option value="PUSKESMAS">PUSKESMAS</option>
+                        <option value="KLINIK PRATAMA">KLINIK PRATAMA</option>
+                        <option value="DOKTER UMUM">DOKTER UMUM</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV13_type" class="col-sm-2 col-form-label">PSTV13:</label>
+                <div class="col-sm-5">
+                    <select id="PSTV13_type" name="PSTV13" class="custom-select my-1 mr-sm-1">
+                        <option value="JAWA TENGAH">JAWA TENGAH</option>
+                        <option value="JAWA BARAT">JAWA BARAT</option>
+                        <option value="JAWA TIMUR">JAWA TIMUR</option>
+                        <option value="SUMATERA UTARA">SUMATERA UTARA</option>
+                        <option value="SULAWESI SELATAN">SULAWESI SELATAN</option>
+                        <option value="SUMATERA SELATAN">SUMATERA SELATAN</option>
+                        <option value="DKI JAKARTA">DKI JAKARTA</option>
+                        <option value="LAMPUNG">LAMPUNG</option>
+                        <option value="LAMPUNG">LAMPUNG</option>
+                        <option value="NUSA TENGGARA TIMUR">NUSA TENGGARA TIMUR</option>
+                        <option value="ACEH">ACEH</option>
+                        <option value="RIAU">RIAU</option>
+                        <option value="PAPUA">PAPUA</option>
+                        <option value="SUMATERA BARAT">SUMATERA BARAT</option>
+                        <option value="BALI">BALI</option>
+                        <option value="KALIMANTAN SELATAN">KALIMANTAN SELATAN</option>
+                        <option value="SULAWESI TENGGARA">SULAWESI TENGGARA</option>
+                        <option value="KALIMANTAN BARAT">KALIMANTAN BARAT</option>
+                        <option value="KALIMANTAN TIMUR">KALIMANTAN TIMUR</option>
+                        <option value="SULAWESI UTARA">SULAWESI UTARA</option>
+                        <option value="JAMBI">JAMBI</option>
+                        <option value="DAERAH ISTIMEWA YOGYAKARTA">DAERAH ISTIMEWA YOGYAKARTA</option>
+                        <option value="SULAWESI TENGAH">SULAWESI TENGAH</option>
+                        <option value="NUSA TENGGARA BARAT">NUSA TENGGARA BARAT</option>
+                        <option value="KALIMANTAN TENGAH">KALIMANTAN TENGAH</option>
+                        <option value="BENGKULU">BENGKULU</option>
+                        <option value="MALUKU">MALUKU</option>
+                        <option value="PAPUA BARAT">PAPUA BARAT</option>
+                        <option value="MALUKU UTARA">MALUKU UTARA</option>
+                        <option value="KEPULAUAN RIAU">KEPULAUAN RIAU</option>
+                        <option value="SULAWESI BARAT">SULAWESI BARAT</option>
+                        <option value="KEPULAUAN BANGKA BELITUNG">KEPULAUAN BANGKA BELITUNG</option>
+                        <option value="GORONTALO">GORONTALO</option>
+                        <option value="KALIMANTAN UTARA">KALIMANTAN UTARA</option>
+                        <option value="TIDAK TERDEFINISI">TIDAK TERDEFINISI</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV14" class="col-sm-2 col-form-label">PSTV14:</label>
+                <div class="col-sm-5">
+                    <input name="PSTV14" type="text" class="form-control" id="PSTV14" required="required"
+                    placeholder="Masukkan kota atau PSTV14 Cth: BOGOR">
+                  </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV15" class="col-sm-2 col-form-label">PSTV15:</label>
+                <div class="col-sm-5">
+                    <input name="PSTV15" type="integer" class="form-control" id="PSTV15" required="required"
+                    placeholder="Masukkan nilai PSTV15 cth : 1.050523">
+                  </div>
+        </div>
+
+        <div class="form-group row">          
+            <label for="PSTV16" class="col-sm-2 col-form-label">PSTV16:</label>
+                <div class="col-sm-5">
+                    <input name="PSTV16" type="integer" class="form-control" id="PSTV16" required="required"
+                    placeholder="Masukkan nilai PSTV16 2016-2021">
+                  </div>
+        </div>
+ 
+        </form>
+</body>
+</html>
