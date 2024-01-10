@@ -1,5 +1,6 @@
 ## Introduction
 Repository ini merupakan bahan latihan pengembangan model data mining yang menerapkan CRISP-DM.
+
 [Dataset](https://drive.google.com/drive/folders/1HWmqPe8dwr1NVZhRbEtdYaPVnjJe0e3E?usp=sharing) merupakan Data Sampel dari BPJS Kesehatan pada kurun waktu 2015 hingga 2021.
 
 ![Buku Data Sampel Tahun 2022-2_page-0001](https://github.com/san-limbong/Klasifikasi-Status-Kepesertaan-Case-Data-Sample-BPJS-2015-2021/assets/81342084/52765587-5ab6-4988-bf1f-669edf148ba2)
@@ -12,6 +13,9 @@ Berikut atribut yang tersedia dari dataset yang digunakan.
 
 
 Tujuan dari pengembangan model adalah untuk melatih model yang dapat mengklasifikasikan status kepesertaan antara AKTIF dan TIDAK AKTIF.
+
+Sebagai catatan anda juga dapat mengeksplorasi dengan menggunakan dataset dan e-book melalui link diatas untuk mengembangkan model anda.
+
 
 ## Coba Aplikasi di Komputer Anda. 
 1. Pastikan Anda sudah menginstall Anaconda dan telah menyesuaikan PATH ENVIRONMENTnya
